@@ -65,4 +65,19 @@ public class HomePage {
     public boolean isCartIconDisplayed() {
         return driver.findElement(cartIcon).isDisplayed();
     }
+    public List<WebElement> getAllAddToCartButtons() {
+        return driver.findElements(By.xpath("//button[contains(text(),'Add to cart') or contains(text(),'Remove')]"));
+    }
+
+    public void selectSortOption(String value) {
+        getSortDropdown().click();
+        getSortDropdown().findElement(By.xpath("//option[@value='" + value + "']")).click();
+    }
+
+    public double getProductPrice(int index) {
+        String priceText = getAllPrices().get(index).getText(); // e.g., "$7.99"
+        return Double.parseDouble(priceText.replace("$", ""));
+    }
+
+
 }
