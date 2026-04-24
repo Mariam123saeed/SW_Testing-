@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="28" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T13:10:07 EET" name="Default Suite" finished-at="2025-12-06T13:11:20 EET" duration-ms="73210">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T13:10:07 EET" name="LoginHomeTest.java" finished-at="2025-12-06T13:11:20 EET" duration-ms="73210">
+      <class name="integration_Testing.LoginTests">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:07 EET" name="beforetest" finished-at="2025-12-06T13:10:10 EET" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="validLoginStandardUser()[pri:1, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:10 EET" name="validLoginStandardUser" finished-at="2025-12-06T13:10:11 EET" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginStandardUser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:11 EET" name="aftertest" finished-at="2025-12-06T13:10:11 EET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:11 EET" name="beforetest" finished-at="2025-12-06T13:10:12 EET" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="invalidUsername()[pri:2, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:12 EET" name="invalidUsername" finished-at="2025-12-06T13:10:13 EET" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:13 EET" name="aftertest" finished-at="2025-12-06T13:10:13 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:13 EET" name="beforetest" finished-at="2025-12-06T13:10:15 EET" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="invalidPassword()[pri:3, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:15 EET" name="invalidPassword" finished-at="2025-12-06T13:10:15 EET" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:15 EET" name="aftertest" finished-at="2025-12-06T13:10:15 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:15 EET" name="beforetest" finished-at="2025-12-06T13:10:17 EET" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="emptyUsernameAndPassword()[pri:4, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:17 EET" name="emptyUsernameAndPassword" finished-at="2025-12-06T13:10:17 EET" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameAndPassword -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:17 EET" name="aftertest" finished-at="2025-12-06T13:10:17 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:17 EET" name="beforetest" finished-at="2025-12-06T13:10:19 EET" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="emptyUsername()[pri:5, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:19 EET" name="emptyUsername" finished-at="2025-12-06T13:10:20 EET" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:20 EET" name="aftertest" finished-at="2025-12-06T13:10:20 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:20 EET" name="beforetest" finished-at="2025-12-06T13:10:21 EET" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="emptyPassword()[pri:6, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:21 EET" name="emptyPassword" finished-at="2025-12-06T13:10:21 EET" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:21 EET" name="aftertest" finished-at="2025-12-06T13:10:22 EET" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:22 EET" name="beforetest" finished-at="2025-12-06T13:10:24 EET" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="lockedOutUser()[pri:7, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:24 EET" name="lockedOutUser" finished-at="2025-12-06T13:10:24 EET" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:24 EET" name="aftertest" finished-at="2025-12-06T13:10:24 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:24 EET" name="beforetest" finished-at="2025-12-06T13:10:26 EET" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="problemUserLogin()[pri:8, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:26 EET" name="problemUserLogin" finished-at="2025-12-06T13:10:26 EET" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemUserLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:26 EET" name="aftertest" finished-at="2025-12-06T13:10:26 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:26 EET" name="beforetest" finished-at="2025-12-06T13:10:28 EET" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="performanceGlitchUser()[pri:9, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:28 EET" name="performanceGlitchUser" finished-at="2025-12-06T13:10:34 EET" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceGlitchUser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:34 EET" name="aftertest" finished-at="2025-12-06T13:10:34 EET" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:34 EET" name="beforetest" finished-at="2025-12-06T13:10:38 EET" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="closeErrorMessage()[pri:10, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:38 EET" name="closeErrorMessage" finished-at="2025-12-06T13:10:40 EET" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeErrorMessage -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:40 EET" name="aftertest" finished-at="2025-12-06T13:10:40 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:40 EET" name="beforetest" finished-at="2025-12-06T13:10:43 EET" duration-ms="3295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="loginWithEnterOnUsername()[pri:11, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:43 EET" name="loginWithEnterOnUsername" finished-at="2025-12-06T13:10:43 EET" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEnterOnUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:43 EET" name="aftertest" finished-at="2025-12-06T13:10:44 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:44 EET" name="beforetest" finished-at="2025-12-06T13:10:47 EET" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="loginWithEnterOnPassword()[pri:12, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:47 EET" name="loginWithEnterOnPassword" finished-at="2025-12-06T13:10:47 EET" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEnterOnPassword -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:47 EET" name="aftertest" finished-at="2025-12-06T13:10:47 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:47 EET" name="beforetest" finished-at="2025-12-06T13:10:49 EET" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="usernameWithLeadingSpaces()[pri:13, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:49 EET" name="usernameWithLeadingSpaces" finished-at="2025-12-06T13:10:49 EET" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameWithLeadingSpaces -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:49 EET" name="aftertest" finished-at="2025-12-06T13:10:50 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:50 EET" name="beforetest" finished-at="2025-12-06T13:10:51 EET" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="usernameWithTrailingSpaces()[pri:14, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:51 EET" name="usernameWithTrailingSpaces" finished-at="2025-12-06T13:10:51 EET" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameWithTrailingSpaces -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:51 EET" name="aftertest" finished-at="2025-12-06T13:10:52 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:52 EET" name="beforetest" finished-at="2025-12-06T13:10:53 EET" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="passwordWithLeadingSpaces()[pri:15, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:53 EET" name="passwordWithLeadingSpaces" finished-at="2025-12-06T13:10:54 EET" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordWithLeadingSpaces -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:54 EET" name="aftertest" finished-at="2025-12-06T13:10:54 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:54 EET" name="beforetest" finished-at="2025-12-06T13:10:55 EET" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="caseSensitiveUsername()[pri:16, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:55 EET" name="caseSensitiveUsername" finished-at="2025-12-06T13:10:55 EET" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseSensitiveUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:55 EET" name="aftertest" finished-at="2025-12-06T13:10:55 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:55 EET" name="beforetest" finished-at="2025-12-06T13:10:57 EET" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="caseSensitivePassword()[pri:17, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:57 EET" name="caseSensitivePassword" finished-at="2025-12-06T13:10:57 EET" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseSensitivePassword -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:57 EET" name="aftertest" finished-at="2025-12-06T13:10:57 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:57 EET" name="beforetest" finished-at="2025-12-06T13:10:59 EET" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="specialCharactersUsername()[pri:18, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:59 EET" name="specialCharactersUsername" finished-at="2025-12-06T13:10:59 EET" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharactersUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:59 EET" name="aftertest" finished-at="2025-12-06T13:10:59 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:10:59 EET" name="beforetest" finished-at="2025-12-06T13:11:00 EET" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="sqlInjectionUsername()[pri:19, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:00 EET" name="sqlInjectionUsername" finished-at="2025-12-06T13:11:01 EET" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqlInjectionUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:01 EET" name="aftertest" finished-at="2025-12-06T13:11:01 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:01 EET" name="beforetest" finished-at="2025-12-06T13:11:02 EET" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="veryLongUsername()[pri:20, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:02 EET" name="veryLongUsername" finished-at="2025-12-06T13:11:03 EET" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veryLongUsername -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:03 EET" name="aftertest" finished-at="2025-12-06T13:11:03 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:03 EET" name="beforetest" finished-at="2025-12-06T13:11:04 EET" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verifyLoginButtonClickable()[pri:21, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:04 EET" name="verifyLoginButtonClickable" finished-at="2025-12-06T13:11:04 EET" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonClickable -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:04 EET" name="aftertest" finished-at="2025-12-06T13:11:04 EET" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:04 EET" name="beforetest" finished-at="2025-12-06T13:11:05 EET" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verifyUsernameFieldProperties()[pri:22, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:05 EET" name="verifyUsernameFieldProperties" finished-at="2025-12-06T13:11:05 EET" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameFieldProperties -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:05 EET" name="aftertest" finished-at="2025-12-06T13:11:05 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:05 EET" name="beforetest" finished-at="2025-12-06T13:11:07 EET" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verifyPasswordFieldProperties()[pri:23, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:07 EET" name="verifyPasswordFieldProperties" finished-at="2025-12-06T13:11:07 EET" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordFieldProperties -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:07 EET" name="aftertest" finished-at="2025-12-06T13:11:07 EET" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:07 EET" name="beforetest" finished-at="2025-12-06T13:11:08 EET" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="verifyPageTitle()[pri:24, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:08 EET" name="verifyPageTitle" finished-at="2025-12-06T13:11:08 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:08 EET" name="aftertest" finished-at="2025-12-06T13:11:08 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:08 EET" name="beforetest" finished-at="2025-12-06T13:11:10 EET" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="multipleFailedLoginAttempts()[pri:25, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:10 EET" name="multipleFailedLoginAttempts" finished-at="2025-12-06T13:11:11 EET" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleFailedLoginAttempts -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:11 EET" name="aftertest" finished-at="2025-12-06T13:11:11 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:11 EET" name="beforetest" finished-at="2025-12-06T13:11:12 EET" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="clearFieldsAndLogin()[pri:26, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:12 EET" name="clearFieldsAndLogin" finished-at="2025-12-06T13:11:13 EET" duration-ms="553" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed after clearing fields expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed after clearing fields expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at integration_Testing.LoginTests.clearFieldsAndLogin(LoginTests.java:336)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFieldsAndLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:13 EET" name="aftertest" finished-at="2025-12-06T13:11:13 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:13 EET" name="beforetest" finished-at="2025-12-06T13:11:14 EET" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="navigateBackAfterLogin()[pri:27, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:14 EET" name="navigateBackAfterLogin" finished-at="2025-12-06T13:11:15 EET" duration-ms="382" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User was logged out after back navigation expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User was logged out after back navigation expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at integration_Testing.LoginTests.navigateBackAfterLogin(LoginTests.java:353)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBackAfterLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:15 EET" name="aftertest" finished-at="2025-12-06T13:11:15 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:15 EET" name="beforetest" finished-at="2025-12-06T13:11:16 EET" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="refreshAfterFailedLogin()[pri:28, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:16 EET" name="refreshAfterFailedLogin" finished-at="2025-12-06T13:11:16 EET" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterFailedLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:16 EET" name="aftertest" finished-at="2025-12-06T13:11:17 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:17 EET" name="beforetest" finished-at="2025-12-06T13:11:18 EET" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="visualUserLogin()[pri:29, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:18 EET" name="visualUserLogin" finished-at="2025-12-06T13:11:18 EET" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualUserLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:18 EET" name="aftertest" finished-at="2025-12-06T13:11:18 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:18 EET" name="beforetest" finished-at="2025-12-06T13:11:20 EET" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="errorUserLogin()[pri:30, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:20 EET" name="errorUserLogin" finished-at="2025-12-06T13:11:20 EET" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorUserLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:integration_Testing.LoginTests@3911c2a7]" started-at="2025-12-06T13:11:20 EET" name="aftertest" finished-at="2025-12-06T13:11:20 EET" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- integration_Testing.LoginTests -->
+    </test> <!-- LoginHomeTest.java -->
+  </suite> <!-- Default Suite -->
+</testng-results>

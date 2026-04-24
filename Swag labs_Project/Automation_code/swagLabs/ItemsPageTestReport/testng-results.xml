@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T13:07:22 EET" name="Default Suite" finished-at="2025-12-06T13:07:26 EET" duration-ms="4892">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T13:07:22 EET" name="LoginHomeTest.java" finished-at="2025-12-06T13:07:26 EET" duration-ms="4892">
+      <class name="integration_Testing.ItemsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:22 EET" name="setup" finished-at="2025-12-06T13:07:25 EET" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCartButton()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:25 EET" name="testAddToCartButton" finished-at="2025-12-06T13:07:26 EET" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartButton -->
+        <test-method signature="testBackButtonAfterAdding()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:26 EET" name="testBackButtonAfterAdding" finished-at="2025-12-06T13:07:26 EET" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackButtonAfterAdding -->
+        <test-method signature="testBackButtonWithoutAdding()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:26 EET" name="testBackButtonWithoutAdding" finished-at="2025-12-06T13:07:26 EET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackButtonWithoutAdding -->
+        <test-method signature="testItemAddedToCart()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:26 EET" name="testItemAddedToCart" finished-at="2025-12-06T13:07:26 EET" duration-ms="141" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart count is not correct expected [1] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart count is not correct expected [1] but found [2]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at integration_Testing.ItemsPageTest.testItemAddedToCart(ItemsPageTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemAddedToCart -->
+        <test-method signature="testItemDetails()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:26 EET" name="testItemDetails" finished-at="2025-12-06T13:07:26 EET" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:integration_Testing.ItemsPageTest@6eda5c9]" started-at="2025-12-06T13:07:26 EET" name="teardown" finished-at="2025-12-06T13:07:26 EET" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- integration_Testing.ItemsPageTest -->
+    </test> <!-- LoginHomeTest.java -->
+  </suite> <!-- Default Suite -->
+</testng-results>

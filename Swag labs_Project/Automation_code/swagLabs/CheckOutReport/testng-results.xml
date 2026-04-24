@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T12:01:24 EET" name="Default Suite" finished-at="2025-12-06T12:01:37 EET" duration-ms="13300">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T12:01:24 EET" name="LoginHomeTest.java" finished-at="2025-12-06T12:01:37 EET" duration-ms="13300">
+      <class name="integration_Testing.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:24 EET" name="setUp" finished-at="2025-12-06T12:01:30 EET" duration-ms="6688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckout1()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:30 EET" name="testCheckout1" finished-at="2025-12-06T12:01:32 EET" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout1 -->
+        <test-method signature="testCheckout2()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:32 EET" name="testCheckout2" finished-at="2025-12-06T12:01:34 EET" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout2 -->
+        <test-method signature="testCheckout3()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:34 EET" name="testCheckout3" finished-at="2025-12-06T12:01:36 EET" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout3 -->
+        <test-method signature="testCheckout4()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:36 EET" name="testCheckout4" finished-at="2025-12-06T12:01:37 EET" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:integration_Testing.CheckoutTests@4fb0f2b9]" started-at="2025-12-06T12:01:37 EET" name="tearDown" finished-at="2025-12-06T12:01:37 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- integration_Testing.CheckoutTests -->
+    </test> <!-- LoginHomeTest.java -->
+  </suite> <!-- Default Suite -->
+</testng-results>

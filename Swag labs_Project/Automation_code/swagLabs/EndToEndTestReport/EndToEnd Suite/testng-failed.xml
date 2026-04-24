@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EndToEnd Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EndToEnd Flow(failed)">
+    <classes>
+      <class name="end_to_end_testing.LoginHomeTest">
+        <methods>
+          <include name="testSideBarList" invocation-numbers="0"/>
+          <include name="testAllItemsLink" invocation-numbers="0"/>
+          <include name="openSideBar"/>
+          <include name="closeSideBar"/>
+          <include name="beforeClass"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- end_to_end_testing.LoginHomeTest -->
+      <class name="end_to_end_testing.HomeProductCartTests">
+        <methods>
+          <include name="removeProductAndVerifyCart" invocation-numbers="0 1"/>
+          <include name="ViewDetailPageAndAddFirstProduct"/>
+          <include name="ResetAppState" invocation-numbers="0 1"/>
+          <include name="beforeClass"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- end_to_end_testing.HomeProductCartTests -->
+    </classes>
+  </test> <!-- EndToEnd Flow(failed) -->
+</suite> <!-- Failed suite [EndToEnd Suite] -->

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default Suite</th></tr>
+<tr><td><a href="#t0">LoginHomeTest.java</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">22,712</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginHomeTest.java &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">integration_Testing.HomeTests</td><td><a href="#m0">addAndRemoveItemFromCart</a></td><td rowspan="1">1765016916418</td><td rowspan="1">231</td></tr><tr class="failedeven"><td><a href="#m1">testSortingZtoA</a></td><td rowspan="1">1765016933171</td><td rowspan="1">162</td></tr><tr><th colspan="4">LoginHomeTest.java &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">integration_Testing.HomeTests</td><td><a href="#m2">addItemToCartTest</a></td><td rowspan="1">1765016918657</td><td rowspan="1">107</td></tr><tr class="passedeven"><td><a href="#m3">cartIconExists</a></td><td rowspan="1">1765016920768</td><td rowspan="1">75</td></tr><tr class="passedeven"><td><a href="#m4">checkAllProductNamesDisplayed</a></td><td rowspan="1">1765016922846</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m5">checkPricesDisplayed</a></td><td rowspan="1">1765016924872</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m6">checkProductCount</a></td><td rowspan="1">1765016926891</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m7">checkProductImagesDisplayed</a></td><td rowspan="1">1765016928905</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m8">testSortingAtoZ</a></td><td rowspan="1">1765016930954</td><td rowspan="1">213</td></tr></tbody>
+</table>
+<h2>LoginHomeTest.java</h2><h3 id="m0">integration_Testing.HomeTests#addAndRemoveItemFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Cart counter did not update after removing! expected [0] but found [1]
+	at integration_Testing.HomeTests.addAndRemoveItemFromCart(HomeTests.java:133)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">integration_Testing.HomeTests#testSortingZtoA</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Sorting dropdown value is incorrect! expected [Name (Z to A)] but found [Name (A to Z)]
+	at integration_Testing.HomeTests.testSortingZtoA(HomeTests.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">integration_Testing.HomeTests#addItemToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">integration_Testing.HomeTests#cartIconExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">integration_Testing.HomeTests#checkAllProductNamesDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">integration_Testing.HomeTests#checkPricesDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">integration_Testing.HomeTests#checkProductCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">integration_Testing.HomeTests#checkProductImagesDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">integration_Testing.HomeTests#testSortingAtoZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

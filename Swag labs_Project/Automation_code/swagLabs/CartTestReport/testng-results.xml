@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T12:18:27 EET" name="Default Suite" finished-at="2025-12-06T12:19:54 EET" duration-ms="87185">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T12:18:27 EET" name="LoginHomeTest.java" finished-at="2025-12-06T12:19:54 EET" duration-ms="87185">
+      <class name="integration_Testing.CartTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:27 EET" name="beforeTest" finished-at="2025-12-06T12:18:34 EET" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC1_AddSingleProductToCart()[pri:1, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:34 EET" name="TC1_AddSingleProductToCart" finished-at="2025-12-06T12:18:34 EET" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_AddSingleProductToCart -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:34 EET" name="afterTest" finished-at="2025-12-06T12:18:35 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:35 EET" name="beforeTest" finished-at="2025-12-06T12:18:39 EET" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC2_AddMultipleDifferentProducts()[pri:2, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:39 EET" name="TC2_AddMultipleDifferentProducts" finished-at="2025-12-06T12:18:40 EET" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_AddMultipleDifferentProducts -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:40 EET" name="afterTest" finished-at="2025-12-06T12:18:40 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:40 EET" name="beforeTest" finished-at="2025-12-06T12:18:44 EET" duration-ms="4368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC3_RemoveProductFromCart()[pri:3, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:44 EET" name="TC3_RemoveProductFromCart" finished-at="2025-12-06T12:18:45 EET" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_RemoveProductFromCart -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:45 EET" name="afterTest" finished-at="2025-12-06T12:18:45 EET" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:45 EET" name="beforeTest" finished-at="2025-12-06T12:18:50 EET" duration-ms="4523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC4_VerifyButtonChangeAfterAdd()[pri:4, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:50 EET" name="TC4_VerifyButtonChangeAfterAdd" finished-at="2025-12-06T12:18:50 EET" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_VerifyButtonChangeAfterAdd -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:50 EET" name="afterTest" finished-at="2025-12-06T12:18:51 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:51 EET" name="beforeTest" finished-at="2025-12-06T12:18:55 EET" duration-ms="4742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC5_VerifyTotalPriceCalculation()[pri:5, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:55 EET" name="TC5_VerifyTotalPriceCalculation" finished-at="2025-12-06T12:18:57 EET" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_VerifyTotalPriceCalculation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:57 EET" name="afterTest" finished-at="2025-12-06T12:18:57 EET" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:18:57 EET" name="beforeTest" finished-at="2025-12-06T12:19:01 EET" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC6_VerifyCartIconUpdatesCount()[pri:6, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:01 EET" name="TC6_VerifyCartIconUpdatesCount" finished-at="2025-12-06T12:19:02 EET" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_VerifyCartIconUpdatesCount -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:02 EET" name="afterTest" finished-at="2025-12-06T12:19:02 EET" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:02 EET" name="beforeTest" finished-at="2025-12-06T12:19:07 EET" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC7_CheckCartAfterLogoutAndLogin()[pri:7, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:07 EET" name="TC7_CheckCartAfterLogoutAndLogin" finished-at="2025-12-06T12:19:09 EET" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_CheckCartAfterLogoutAndLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:09 EET" name="afterTest" finished-at="2025-12-06T12:19:09 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:09 EET" name="beforeTest" finished-at="2025-12-06T12:19:13 EET" duration-ms="4614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC8_CheckCartPersistenceAcrossPages()[pri:8, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:13 EET" name="TC8_CheckCartPersistenceAcrossPages" finished-at="2025-12-06T12:19:16 EET" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_CheckCartPersistenceAcrossPages -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:16 EET" name="afterTest" finished-at="2025-12-06T12:19:16 EET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:16 EET" name="beforeTest" finished-at="2025-12-06T12:19:22 EET" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC9_AddSameProductMultipleTimes()[pri:9, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:22 EET" name="TC9_AddSameProductMultipleTimes" finished-at="2025-12-06T12:19:22 EET" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_AddSameProductMultipleTimes -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:22 EET" name="afterTest" finished-at="2025-12-06T12:19:22 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:22 EET" name="beforeTest" finished-at="2025-12-06T12:19:28 EET" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC10_RemoveAllItems()[pri:10, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:28 EET" name="TC10_RemoveAllItems" finished-at="2025-12-06T12:19:28 EET" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_RemoveAllItems -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:28 EET" name="afterTest" finished-at="2025-12-06T12:19:29 EET" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:29 EET" name="beforeTest" finished-at="2025-12-06T12:19:33 EET" duration-ms="4674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC11_AddProductThenCheckout()[pri:11, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:33 EET" name="TC11_AddProductThenCheckout" finished-at="2025-12-06T12:19:34 EET" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_AddProductThenCheckout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:34 EET" name="afterTest" finished-at="2025-12-06T12:19:34 EET" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:34 EET" name="beforeTest" finished-at="2025-12-06T12:19:38 EET" duration-ms="4326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC12_AddProductAndNavigateBackToInventory()[pri:12, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:38 EET" name="TC12_AddProductAndNavigateBackToInventory" finished-at="2025-12-06T12:19:39 EET" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_AddProductAndNavigateBackToInventory -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:39 EET" name="afterTest" finished-at="2025-12-06T12:19:39 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:39 EET" name="beforeTest" finished-at="2025-12-06T12:19:43 EET" duration-ms="4364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC13_VerifyCartUIElements()[pri:13, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:43 EET" name="TC13_VerifyCartUIElements" finished-at="2025-12-06T12:19:44 EET" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_VerifyCartUIElements -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:44 EET" name="afterTest" finished-at="2025-12-06T12:19:44 EET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:44 EET" name="beforeTest" finished-at="2025-12-06T12:19:48 EET" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC14_VerifyEmptyCartMessage()[pri:14, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:48 EET" name="TC14_VerifyEmptyCartMessage" finished-at="2025-12-06T12:19:49 EET" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_VerifyEmptyCartMessage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:49 EET" name="afterTest" finished-at="2025-12-06T12:19:49 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:49 EET" name="beforeTest" finished-at="2025-12-06T12:19:53 EET" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC15_AddMaximumQuantity()[pri:15, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:53 EET" name="TC15_AddMaximumQuantity" finished-at="2025-12-06T12:19:54 EET" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_AddMaximumQuantity -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:integration_Testing.CartTest@43195e57]" started-at="2025-12-06T12:19:54 EET" name="afterTest" finished-at="2025-12-06T12:19:54 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- integration_Testing.CartTest -->
+    </test> <!-- LoginHomeTest.java -->
+  </suite> <!-- Default Suite -->
+</testng-results>

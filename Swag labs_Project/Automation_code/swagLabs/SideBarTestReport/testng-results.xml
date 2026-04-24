@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T13:12:45 EET" name="Default Suite" finished-at="2025-12-06T13:13:31 EET" duration-ms="46448">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T13:12:45 EET" name="LoginHomeTest.java" finished-at="2025-12-06T13:13:31 EET" duration-ms="46448">
+      <class name="integration_Testing.SideBarTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:45 EET" name="beforeTest" finished-at="2025-12-06T13:12:45 EET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="closeMenu()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:45 EET" name="closeMenu" data-provider="loginData" finished-at="2025-12-06T13:12:45 EET" duration-ms="7" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void integration_Testing.SideBarTest.closeMenu()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: closeMenu([])
+Arguments: [(java.lang.String) standard_user,(java.lang.String) secret_sauce]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void integration_Testing.SideBarTest.closeMenu()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: closeMenu([])
+Arguments: [(java.lang.String) standard_user,(java.lang.String) secret_sauce]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMenu -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:45 EET" name="beforeMethod" finished-at="2025-12-06T13:12:48 EET" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:48 EET" name="login" data-provider="loginData" finished-at="2025-12-06T13:12:49 EET" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:49 EET" name="closeBrowser" finished-at="2025-12-06T13:12:49 EET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:49 EET" name="beforeMethod" finished-at="2025-12-06T13:12:50 EET" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:50 EET" name="login" data-provider="loginData" finished-at="2025-12-06T13:12:51 EET" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:51 EET" name="closeBrowser" finished-at="2025-12-06T13:12:51 EET" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="openMenu()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:51 EET" name="openMenu" data-provider="loginData" finished-at="2025-12-06T13:12:51 EET" duration-ms="0" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void integration_Testing.SideBarTest.openMenu()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: openMenu([])
+Arguments: [(java.lang.String) standard_user,(java.lang.String) secret_sauce]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void integration_Testing.SideBarTest.openMenu()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: openMenu([])
+Arguments: [(java.lang.String) standard_user,(java.lang.String) secret_sauce]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMenu -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:51 EET" name="beforeMethod" finished-at="2025-12-06T13:12:53 EET" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSideBarList(java.lang.String,java.lang.String)[pri:1, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:53 EET" name="testSideBarList" data-provider="loginData" finished-at="2025-12-06T13:12:55 EET" duration-ms="2480" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="bm-cross-button" style="position: absolute; width: 24px; height: 24px; right: 8px; top: 8px;">...</div> is not clickable at point (146, 26). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=142.0.7444.175)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-87-generic', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e56fe878365be718dffd3c006eaaf764, clickElement {id=f.62B7FA6205D61B3F53D024770F1B8CE0.d.96A2177E7D905A4B4943A0C94708D574.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.175, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39747}, goog:processID: 36453, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39747/devtoo..., se:cdpVersion: 142.0.7444.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (e56fe878365be718dffd3c006eaaf764)] -> class name: bm-cross-button]
+Session ID: e56fe878365be718dffd3c006eaaf764]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="bm-cross-button" style="position: absolute; width: 24px; height: 24px; right: 8px; top: 8px;">...</div> is not clickable at point (146, 26). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=142.0.7444.175)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-87-generic', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e56fe878365be718dffd3c006eaaf764, clickElement {id=f.62B7FA6205D61B3F53D024770F1B8CE0.d.96A2177E7D905A4B4943A0C94708D574.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.175, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39747}, goog:processID: 36453, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39747/devtoo..., se:cdpVersion: 142.0.7444.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (e56fe878365be718dffd3c006eaaf764)] -> class name: bm-cross-button]
+Session ID: e56fe878365be718dffd3c006eaaf764
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at integration_Testing.SideBarTest.closeMenu(SideBarTest.java:99)
+at integration_Testing.SideBarTest.testSideBarList(SideBarTest.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSideBarList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:55 EET" name="closeBrowser" finished-at="2025-12-06T13:12:55 EET" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:55 EET" name="beforeMethod" finished-at="2025-12-06T13:12:57 EET" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSideBarList(java.lang.String,java.lang.String)[pri:1, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:57 EET" name="testSideBarList" data-provider="loginData" finished-at="2025-12-06T13:12:59 EET" duration-ms="2265" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="bm-cross-button" style="position: absolute; width: 24px; height: 24px; right: 8px; top: 8px;">...</div> is not clickable at point (62, 26). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=142.0.7444.175)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-87-generic', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [442c1e990a635c23ebdf4c7dc2cf1e02, clickElement {id=f.DBAE9262038343D571D51F6030422941.d.486874984D28F26F4B7563073D5E9C32.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.175, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39459}, goog:processID: 36652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39459/devtoo..., se:cdpVersion: 142.0.7444.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (442c1e990a635c23ebdf4c7dc2cf1e02)] -> class name: bm-cross-button]
+Session ID: 442c1e990a635c23ebdf4c7dc2cf1e02]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="bm-cross-button" style="position: absolute; width: 24px; height: 24px; right: 8px; top: 8px;">...</div> is not clickable at point (62, 26). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=142.0.7444.175)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-87-generic', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [442c1e990a635c23ebdf4c7dc2cf1e02, clickElement {id=f.DBAE9262038343D571D51F6030422941.d.486874984D28F26F4B7563073D5E9C32.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.175, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39459}, goog:processID: 36652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39459/devtoo..., se:cdpVersion: 142.0.7444.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (442c1e990a635c23ebdf4c7dc2cf1e02)] -> class name: bm-cross-button]
+Session ID: 442c1e990a635c23ebdf4c7dc2cf1e02
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at integration_Testing.SideBarTest.closeMenu(SideBarTest.java:99)
+at integration_Testing.SideBarTest.testSideBarList(SideBarTest.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSideBarList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:59 EET" name="closeBrowser" finished-at="2025-12-06T13:12:59 EET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:12:59 EET" name="beforeMethod" finished-at="2025-12-06T13:13:00 EET" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAllItemsLink(java.lang.String,java.lang.String)[pri:2, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:00 EET" name="testAllItemsLink" data-provider="loginData" finished-at="2025-12-06T13:13:02 EET" duration-ms="1407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllItemsLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:02 EET" name="closeBrowser" finished-at="2025-12-06T13:13:02 EET" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:02 EET" name="beforeMethod" finished-at="2025-12-06T13:13:04 EET" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAllItemsLink(java.lang.String,java.lang.String)[pri:2, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:04 EET" name="testAllItemsLink" data-provider="loginData" finished-at="2025-12-06T13:13:05 EET" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllItemsLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:05 EET" name="closeBrowser" finished-at="2025-12-06T13:13:05 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:05 EET" name="beforeMethod" finished-at="2025-12-06T13:13:06 EET" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResetLink(java.lang.String,java.lang.String)[pri:3, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:06 EET" name="testResetLink" data-provider="loginData" finished-at="2025-12-06T13:13:08 EET" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:08 EET" name="closeBrowser" finished-at="2025-12-06T13:13:08 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:08 EET" name="beforeMethod" finished-at="2025-12-06T13:13:09 EET" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResetLink(java.lang.String,java.lang.String)[pri:3, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:09 EET" name="testResetLink" data-provider="loginData" finished-at="2025-12-06T13:13:11 EET" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:11 EET" name="closeBrowser" finished-at="2025-12-06T13:13:11 EET" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:11 EET" name="beforeMethod" finished-at="2025-12-06T13:13:12 EET" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAboutLink(java.lang.String,java.lang.String)[pri:4, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:12 EET" name="testAboutLink" data-provider="loginData" finished-at="2025-12-06T13:13:17 EET" duration-ms="5148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:17 EET" name="closeBrowser" finished-at="2025-12-06T13:13:17 EET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:17 EET" name="beforeMethod" finished-at="2025-12-06T13:13:20 EET" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAboutLink(java.lang.String,java.lang.String)[pri:4, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:20 EET" name="testAboutLink" data-provider="loginData" finished-at="2025-12-06T13:13:25 EET" duration-ms="4889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:25 EET" name="closeBrowser" finished-at="2025-12-06T13:13:25 EET" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:25 EET" name="beforeMethod" finished-at="2025-12-06T13:13:27 EET" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogOutLink(java.lang.String,java.lang.String)[pri:5, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:27 EET" name="testLogOutLink" data-provider="loginData" finished-at="2025-12-06T13:13:28 EET" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOutLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:28 EET" name="closeBrowser" finished-at="2025-12-06T13:13:28 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:28 EET" name="beforeMethod" finished-at="2025-12-06T13:13:30 EET" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogOutLink(java.lang.String,java.lang.String)[pri:5, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:30 EET" name="testLogOutLink" data-provider="loginData" finished-at="2025-12-06T13:13:31 EET" duration-ms="1472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOutLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:integration_Testing.SideBarTest@1d2adfbe]" started-at="2025-12-06T13:13:31 EET" name="closeBrowser" finished-at="2025-12-06T13:13:31 EET" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- integration_Testing.SideBarTest -->
+    </test> <!-- LoginHomeTest.java -->
+  </suite> <!-- Default Suite -->
+</testng-results>

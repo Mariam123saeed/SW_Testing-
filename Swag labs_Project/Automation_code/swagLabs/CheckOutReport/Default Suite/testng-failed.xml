@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginHomeTest.java(failed)">
+    <classes>
+      <class name="integration_Testing.CartTest">
+        <methods>
+          <include name="TC3_RemoveProductFromCart"/>
+          <include name="TC4_RaiseProductQuantityInCart"/>
+          <include name="TC2_AddMultipleDifferentProducts"/>
+          <include name="beforeTest"/>
+          <include name="TC5_VerifyTotalPriceCalculation"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- integration_Testing.CartTest -->
+    </classes>
+  </test> <!-- LoginHomeTest.java(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

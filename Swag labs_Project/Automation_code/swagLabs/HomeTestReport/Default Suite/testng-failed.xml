@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginHomeTest.java(failed)">
+    <classes>
+      <class name="integration_Testing.HomeTests">
+        <methods>
+          <include name="addAndRemoveItemFromCart"/>
+          <include name="delayBetweenTests"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testSortingZtoA"/>
+        </methods>
+      </class> <!-- integration_Testing.HomeTests -->
+    </classes>
+  </test> <!-- LoginHomeTest.java(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
